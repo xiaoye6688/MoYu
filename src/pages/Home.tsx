@@ -5,6 +5,7 @@ import { css } from '@emotion/css'
 // import Counter from '../components/Counter'
 // import HelloWorld from '../components/HelloWorld'
 import Logo from '../components/Logo'
+import HomeMenu from '../components/HomeMenu'
 
 const style = css`
 h5 {
@@ -20,15 +21,15 @@ export default defineComponent({
       <Logo />
       
       <h5>v 0.0.0</h5>
-        
-        {/* 一条蓝色分割线 */}
-        <hr style="border: 1px solid #1E90FF;" />
-        {/* <HelloWorld message="Hello Vue + Electron" /> */}
-        {/* <p>
-          <RouterLink to="/blank">Next page</RouterLink>
-          {' | '}
-          <Counter />
-        </p> */}
+      {/* 一条蓝色分割线 */}
+      <hr style="border: 1px solid #1E90FF;" />
+      <HomeMenu />
+      {/* <HelloWorld message="Hello Vue + Electron" /> */}
+      {/* <p>
+        <RouterLink to="/blank">Next page</RouterLink>
+        {' | '}
+        <Counter />
+      </p> */}
       </div>
       </>
     )
