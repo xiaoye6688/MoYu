@@ -41,8 +41,11 @@ export default defineComponent({
   setup () {
     return () => (
       <div class={style}>
-        <button>
+        <button id='HomeMenu'>
           主页
+        </button>
+        <button id='VideoMenu'>
+          视频
         </button>
         {/* 创建一个menu */}
         {/* <ElMenu default-active="1" class="el-menu-vertical-demo" mode="vertical">
