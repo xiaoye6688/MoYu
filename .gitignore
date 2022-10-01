@@ -79,3 +79,6 @@ typings/
 
 # FuseBox cache
 .fusebox/
+
+# 忽略根目录的yarn.lock文件
+yarn.lock
