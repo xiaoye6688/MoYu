@@ -36,3 +36,9 @@ $ yarn build
 - [Vue Router](https://next.router.vuejs.org/)
 - [Electron](https://www.electronjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
+
+
+## Stargazers over time
+
+[![Stargazers over time](https://starchart.cc/xiaoye6688/MoYu.svg)](https://starchart.cc/xiaoye6688/MoYu)
+
