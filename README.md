@@ -8,20 +8,27 @@
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/hyroge/vite-vue-electron/blob/main/LICENSE)
 
 ## 项目使用
-You can choose to clone the project or fork repository, or download the zip file directly. It is recommended to clone the repository so that you can receive the latest patches.
+- You can choose to clone the project or fork repository, or download the zip file directly. It is recommended to clone the repository so that you can receive the latest patches.
+<!-- 中文翻译 -->
+- 你可以选择克隆项目或者fork仓库，或者直接下载zip文件。建议克隆仓库，这样可以接收到最新的补丁。
 
-To run a project, you need to have node version 16 or higher and use yarn as your dependency management tool
+
+- To run a project, you need to have node version 16 or higher and use yarn as - your dependency management tool
+<!-- 中文翻译 -->
+- 要运行项目，您需要具有16或更高版本的node，并使用yarn作为依赖项管理工具
+
+```bash
 
 
 ## Setup
 ```
-# install dependencies
+# 安装依赖
 $ yarn install
 
-# serve with vite
+# 调试
 $ yarn dev
 
-# build electron application for production
+# 打包
 $ yarn build
 ```
 
